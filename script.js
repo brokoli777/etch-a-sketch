@@ -13,9 +13,9 @@ for(i=0;i<16;i++)
         row.style.borderColor="black"
         row.style.height="25px"
         row.style.width="25px"
-        row.addEventListener("mouseover",function(event)
+        row.addEventListener("mouseover",function()
         {
-            event.target.style.
+            row.style.backgroundColor="blue"
         })
         column.appendChild(row)
     }
